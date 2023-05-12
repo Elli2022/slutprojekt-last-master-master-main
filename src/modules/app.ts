@@ -444,7 +444,7 @@ async function redirectToLogin() {
   await logoutAndUpdateStatus();
 
   //omdirigerar användaren till hemsidan (inloggningssidan)
-  window.location.href = "/";
+  window.location.href = "./";
 }
 
 // Lägger till en eventlistener för utloggning
